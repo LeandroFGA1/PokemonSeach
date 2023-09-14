@@ -23,8 +23,8 @@ const render = (info)=>{
             ${info.types.map(type=>`<span class="${type.type.name}">${type.type.name}</span>`).join('')}
         </div>
         <div class="peso-altura">
-            <span>peso: ${info.height/10}M.</span>
-            <span>altura: ${info.weight/10}Kg.</span>
+            <span>Altura: ${info.height/10}M.</span>
+            <span>Peso: ${info.weight/10}Kg.</span>
         </div>
     </div>
     `;
